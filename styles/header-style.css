@@ -1,0 +1,36 @@
+@import "/styles/style.css" screen;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Roboto:wght@300&display=swap");
+
+header {
+  height: 100px;
+  position: sticky;
+  z-index: 5;
+}
+#header-content {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  color: #464646;
+}
+
+.header-nav-links {
+  padding: 20px;
+  list-style-type: none !important;
+}
+.header-nav-links a:visited {
+  color: black;
+}
+
+.header-nav-links a:hover {
+  color: cornflowerblue;
+}
+
+#sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px black solid;
+  /* box-shadow: 0 8px 6px -6px #e0e0e0; */
+}

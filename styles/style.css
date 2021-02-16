@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  /* border: 1px solid red !important; */
+  font-family: "DM Sans", sans-serif;
+  font-size: 1em;
+}
+#logo {
+  font-size: 7em;
+}
+h1 {
+  font-size: 4em;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 3.5em;
+  line-height: 1.1;
+}
+h3 {
+  font-size: 3em;
+  line-height: 1.2;
+}
+h4 {
+  font-size: 2.5em;
+  line-height: 1.3;
+}
+h5 {
+  font-size: 2em;
+  line-height: 1.4;
+}
+h6 {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2em;
+  color: cornflowerblue;
+}
+em {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+}
+b {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+}
+u {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+ol li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.orangered {
+  background-color: orangered;
+}
+.orangered-font {
+  font-family: "Roboto", sans-serif;
+  color: orangered;
+}
+.cornflowerblue {
+  background-color: cornflowerblue;
+}
+.cornflowerblue-font {
+  font-family: "Roboto", sans-serif;
+  color: cornflowerblue;
+}
+.charcoal {
+  background-color: #464646;
+}
+.charcoal-font {
+  font-family: "Roboto", sans-serif;
+  color: #464646;
+}
+.darkgrey {
+  background-color: darkgrey;
+}
+.darkgrey-font {
+  font-family: "Roboto", sans-serif;
+  color: darkgrey;
+}
